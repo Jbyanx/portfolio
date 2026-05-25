@@ -95,8 +95,12 @@ function initVideoModal() {
 
   if (!modal || !modalVideo || !modalVideoSource) return;
 
-  function openModal(videoSrc) {
+  function openModal(videoSrc, title, desc) {
     modalVideoSource.src = videoSrc;
+    const titleEl = document.getElementById('modal-title');
+    const descEl = document.getElementById('modal-desc');
+    if (titleEl && title) titleEl.textContent = title;
+    if (descEl && desc) descEl.textContent = desc;
     modalVideo.load();
     modal.classList.add('active');
     document.body.classList.add('modal-open');
@@ -119,7 +123,9 @@ function initVideoModal() {
     btn.addEventListener('click', (e) => {
       e.preventDefault();
       const videoSrc = btn.getAttribute('data-video');
-      if (videoSrc) openModal(videoSrc);
+      const title = btn.getAttribute('data-title');
+      const desc = btn.getAttribute('data-desc');
+      if (videoSrc) openModal(videoSrc, title, desc);
     });
   });
 

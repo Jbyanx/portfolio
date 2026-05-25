@@ -443,6 +443,8 @@ ul {
 .card-links {
   display: flex;
   align-items: center;
+  gap: 1.2rem;
+  flex-wrap: wrap;
 }
 
 .card-links a {
