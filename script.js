@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initScrollReveal();
   initVideoModal();
   initRotativeTypewriter();
+  initCurrentYear();
 });
 
 /**
@@ -183,4 +184,12 @@ function initRotativeTypewriter() {
   }
 
   type();
+}
+
+/**
+ * 5. Dynamic Copyright Year
+ */
+function initCurrentYear() {
+  const yearSpan = document.getElementById('current-year');
+  if (yearSpan) yearSpan.textContent = new Date().getFullYear();
 }
