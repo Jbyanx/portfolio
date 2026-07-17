@@ -1,301 +1,349 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Portafolio de Jabes Borré, Arquitecto Backend y Desarrollador Java.">
-  <title>Jabes Borré | Java Backend Developer</title>
-
-  <link rel="stylesheet" href="./style.css">
-
-  <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
-
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
-  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Jabes Borré · Desarrollador Backend Java</title>
+<meta name="description" content="Portafolio de Jabes Borré, desarrollador backend Java. APIs REST seguras y mantenibles con Spring Boot. Experiencia en el sector financiero." />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;450;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css" />
+<link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
 
-  <header class="navbar">
-    <div class="logo">Jabes Borré</div>
-    <nav>
-      <a href="#sobre-mi">Sobre mí</a>
-      <a href="#skills">Habilidades</a>
-      <a href="#proyectos">Proyectos</a>
-      <a href="#contacto" class="btn-contact">Contacto</a>
+<header class="nav">
+  <div class="wrap nav-inner">
+    <a class="brand" href="#top"><span class="dot"></span>Jabes Borré</a>
+    <nav class="nav-links">
+      <a href="#finsight">finsight</a>
+      <a href="#experiencia">experiencia</a>
+      <a href="#proyectos">proyectos</a>
+      <a href="#stack">stack</a>
+      <a href="#sobre-mi">sobre mí</a>
+      <a href="#contacto">contacto</a>
     </nav>
-  </header>
+  </div>
+</header>
 
-  <section id="sobre-mi" class="hero">
-    <div class="hero-content">
-      <div class="photo-container">
-        <img src="./me.jpeg" alt="Jabes Borré" class="profile-photo">
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap">
+      <div class="hero-top">
+        <div>
+          <span class="eyebrow label"><span class="pulse"></span>Disponible para prácticas y roles junior</span>
+          <h1 class="name">Jabes Borré<br>Yance</h1>
+          <p class="role"><span id="typewriter" class="tw">Desarrollador Backend Java</span></p>
+          <p class="lede">Construyo <strong>APIs REST seguras y mantenibles</strong> con Java 21 y Spring Boot. Experiencia reciente en backend para el <strong>sector financiero</strong> y proyectos propios donde tomo yo mismo las decisiones de dominio y arquitectura.</p>
+          <div class="cta-row">
+            <a class="btn primary" href="#finsight">Ver Finsight
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+            <a class="btn" href="Jabes_Borre_Java_dev_CV.pdf" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v12m0 0l-4-4m4 4l4-4M5 21h14"/></svg>
+              Descargar CV
+            </a>
+            <a class="btn" href="https://github.com/Jbyanx" target="_blank" rel="noopener"><i class="ti ti-brand-github"></i> GitHub</a>
+            <a class="btn" href="https://www.linkedin.com/in/jabes-borre-yance/" target="_blank" rel="noopener"><i class="ti ti-brand-linkedin"></i> LinkedIn</a>
+          </div>
+        </div>
+        <img class="portrait" src="assets/me.jpeg" alt="Jabes Borré Yance" />
       </div>
-      <h1 class="title">Jabes Borré Yance</h1>
-      <h2 class="subtitle">
-        <span id="typewriter-text" class="typewriter-cursor"></span>
-      </h2>
 
-      <p class="bio">
-        Apasionado por crear <strong>sistemas robustos</strong>, arquitecturas escalables y servicios distribuidos.
-        Estudiante de <strong>Ingeniería de Sistemas</strong> enfocado en resolver problemas complejos de backend.
-      </p>
+      <div class="facts">
+        <div class="fact"><span class="k label">Ubicación</span><span class="v">🇨🇴 Santa Marta, CO</span><span class="tz">GMT-5 · Bogotá / Lima / Quito</span></div>
+        <div class="fact"><span class="k label">Foco</span><span class="v">Backend · Spring Boot</span></div>
+        <div class="fact"><span class="k label">Experiencia</span><span class="v">Banca · Cibernación</span></div>
+        <div class="fact"><span class="k label">Formación</span><span class="v">Ing. de Sistemas</span><span class="sub">U. del Magdalena</span></div>
+      </div>
+    </div>
+  </section>
 
-      <a href="Jabes_Borre_Java_dev_CV.pdf" target="_blank" class="btn-cv">📄 Descargar CV</a>
+  <!-- FINSIGHT -->
+  <section id="finsight">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="num">01</span>
+        <h2>Proyecto insignia</h2>
+        <span class="rule"></span>
+      </div>
 
-      <div class="social-links">
-        <a href="https://github.com/Jbyanx" target="_blank" aria-label="GitHub">
-          <i class="ti ti-brand-github"></i>
+      <article class="feature reveal">
+        <div class="feature-bar">
+          <div class="ftitle">Finsight</div>
+          <span class="status dev"><span class="s-dot"></span>En desarrollo · deploy en evaluación</span>
+        </div>
+        <div class="feature-body">
+          <div class="feature-grid">
+            <div class="feature-desc">
+              <p><strong>Gestor de finanzas personales con IA.</strong> Un monorepo full-stack que registra gastos, ahorros y deudas, con un modelo de dominio pensado para la forma real en que la gente maneja su dinero.</p>
+              <p>Tres decisiones de diseño lo definen:</p>
+              <ul class="decisions">
+                <li><b>Registro por lenguaje natural</b><span>Escribís un gasto en texto normal; la IA lo interpreta y te lo muestra para <em>confirmar antes de guardar</em>. La IA propone, nunca escribe sola.</span></li>
+                <li><b>El dinero tiene dueño</b><span>El dominio distingue tu dinero del de tu familia y de terceros, con ahorros por bolsillos al estilo Nu.</span></li>
+                <li><b>El color ES el dato</b><span>La salud crediticia no se lee en un número: se lee en el color de la interfaz.</span></li>
+              </ul>
+            </div>
+            <div class="spec">
+              <div class="spec-row"><span class="sk">Rol</span><span class="sv">Backend + Frontend (full-stack)</span></div>
+              <div class="spec-row"><span class="sk">Backend</span><span class="sv"><div class="chips"><span class="chip">Spring Boot 3.5</span><span class="chip">Java 21</span><span class="chip">PostgreSQL</span><span class="chip">MongoDB</span><span class="chip">Redis</span><span class="chip">Liquibase</span><span class="chip">Spring AI · Gemini</span></div></span></div>
+              <div class="spec-row"><span class="sk">Frontend</span><span class="sv"><div class="chips"><span class="chip">React 18</span><span class="chip">TypeScript</span><span class="chip">Vite</span><span class="chip">PWA</span></div></span></div>
+              <div class="spec-row"><span class="sk">Auth</span><span class="sv">OAuth Google + login local · JWT (access 15 min + refresh rotation)</span></div>
+              <div class="spec-row"><span class="sk">Extras</span><span class="sv">Bot de Telegram · Swagger · 217 tests · CI en GitHub Actions</span></div>
+            </div>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- EXPERIENCIA -->
+  <section id="experiencia">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="num">02</span>
+        <h2>Experiencia</h2>
+        <span class="rule"></span>
+      </div>
+
+      <article class="exp reveal">
+        <div class="exp-head">
+          <div>
+            <h3>Desarrollador Backend Java Junior</h3>
+            <span class="exp-org">Cibernación · consultora de software</span>
+          </div>
+          <span class="exp-date">Ene – May 2026</span>
+        </div>
+        <p class="exp-context">Proyecto para una entidad del <strong>sector bancario</strong>, sobre una arquitectura de <strong>microservicios</strong> en Java 21 y Spring Boot 3. Trabajo real de producción en un entorno financiero regulado, colaborando con equipos de QA, diseño y producto bajo metodologías ágiles.</p>
+        <ul class="exp-points">
+          <li>Desarrollo y mantenimiento de <b>APIs REST</b> y microservicios en Java y Spring Boot para productos del sector financiero.</li>
+          <li>Implementación de lógica de negocio sobre flujos de datos, priorizando soluciones simples y mantenibles.</li>
+          <li>Resolución de incidencias y revisión de errores tanto en backend como en componentes frontend Angular.</li>
+          <li>Diagnóstico con consultas <b>SQL</b>, validaciones y revisión de logs; monitoreo de pods con Lens sobre Kubernetes.</li>
+        </ul>
+        <div class="exp-tags">
+          <span class="chip">Microservicios</span>
+          <span class="chip">Spring Boot</span>
+          <span class="chip">JPA</span>
+          <span class="chip">Angular</span>
+          <span class="chip">Azure DevOps</span>
+          <span class="chip">Lens · Kubernetes</span>
+          <span class="chip">Metodologías ágiles</span>
+          <span class="chip">Colab. QA · Diseño · Producto</span>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- PROYECTOS -->
+  <section id="proyectos">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="num">03</span>
+        <h2>Otros proyectos</h2>
+        <span class="rule"></span>
+      </div>
+
+      <div class="projects">
+
+        <article class="card reveal">
+          <div class="card-head">
+            <h3>Conecta Ciudad</h3>
+            <span class="mini-status"><span class="d acad"></span>académico</span>
+          </div>
+          <span class="kicker label">Integridad de datos</span>
+          <p>Módulo de auditoría y votación para una plataforma de participación ciudadana (proyecto académico). Integridad de datos con hashing <b>SHA-256</b> para detectar alteraciones, esquema versionado con Liquibase, autenticación con JWT y CI con GitHub Actions.</p>
+          <div class="chips">
+            <span class="chip">Java</span><span class="chip">Spring Boot</span><span class="chip">PostgreSQL</span><span class="chip">Liquibase</span><span class="chip">GitHub Actions</span><span class="chip">Docker</span>
+          </div>
+          <div class="card-links">
+            <a href="https://github.com/Jbyanx/participacion-api" target="_blank" rel="noopener">Código →</a>
+          </div>
+        </article>
+
+        <article class="card reveal">
+          <div class="card-head">
+            <h3>ReWear</h3>
+            <span class="mini-status"><span class="d acad"></span>académico</span>
+          </div>
+          <span class="kicker label">API REST · Capas</span>
+          <p>Plataforma de economía circular para intercambio sostenible. API REST estructurada en capas, autenticación <b>stateless con JWT</b> y Spring Security, migraciones con Flyway y mapeo eficiente con MapStruct.</p>
+          <div class="chips">
+            <span class="chip">Java 21</span><span class="chip">Spring Boot 3</span><span class="chip">Spring Security</span><span class="chip">SQL Server</span><span class="chip">Flyway</span><span class="chip">OpenAPI</span>
+          </div>
+          <div class="card-links">
+            <a href="https://github.com/Jbyanx/rewear" target="_blank" rel="noopener">Código →</a>
+            <button class="btn-demo" data-video="assets/rewear-demo.mp4" data-title="ReWear · demo" data-desc="Plataforma de economía circular: API REST en capas con autenticación stateless y documentación OpenAPI."><i class="ti ti-player-play"></i> Ver demo</button>
+          </div>
+        </article>
+
+        <article class="card reveal">
+          <div class="card-head">
+            <h3>Belasierra</h3>
+            <span class="mini-status"><span class="d priv"></span>repo privado</span>
+          </div>
+          <span class="kicker label">Reglas de negocio</span>
+          <p>Plataforma de reservas y programa de fidelización hotelera. Reglas de negocio para asignación de recompensas y persistencia de cupones, con seguridad basada en <b>Spring Security y JWT</b>.</p>
+          <div class="chips">
+            <span class="chip">Java 21</span><span class="chip">Spring Boot 3</span><span class="chip">Spring Security</span><span class="chip">PostgreSQL</span><span class="chip">Docker</span>
+          </div>
+          <div class="card-links">
+            <button class="btn-demo" data-video="assets/belasierra-demo.mp4" data-title="Belasierra · demo" data-desc="Sistema de reservas, control de niveles de fidelidad y panel de recompensas."><i class="ti ti-player-play"></i> Ver demo</button>
+          </div>
+        </article>
+
+        <article class="card reveal">
+          <div class="card-head">
+            <h3>ECO-RIDE LATAM</h3>
+            <span class="mini-status"><span class="d acad"></span>académico</span>
+          </div>
+          <span class="kicker label">Servicios desacoplados</span>
+          <p>Proyecto académico de transporte basado en servicios desacoplados. Comunicación asíncrona entre módulos con colas de mensajes (<b>RabbitMQ</b>), autenticación y autorización con Keycloak/JWT, y entorno local con Docker Compose.</p>
+          <div class="chips">
+            <span class="chip">Java 21</span><span class="chip">Spring Boot 3</span><span class="chip">RabbitMQ</span><span class="chip">Keycloak</span><span class="chip">PostgreSQL</span><span class="chip">Docker Compose</span>
+          </div>
+          <div class="card-links">
+            <a href="https://github.com/Jbyanx/ECORIDE---LATAM" target="_blank" rel="noopener">Código →</a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- STACK -->
+  <section id="stack">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="num">04</span>
+        <h2>Stack técnico</h2>
+        <span class="rule"></span>
+      </div>
+
+      <div class="skills-grid">
+
+        <div class="skill-card reveal">
+          <h3>Core &amp; Frameworks</h3>
+          <div class="tech-grid">
+            <div class="tech-item"><i class="devicon-java-plain colored" title="Java"></i><span>Java 21</span></div>
+            <div class="tech-item"><i class="devicon-spring-original colored" title="Spring Boot"></i><span>Spring Boot 3</span></div>
+            <div class="tech-item"><i class="ti ti-shield-lock" style="color:var(--accent)" title="Spring Security"></i><span>Spring Security</span></div>
+            <div class="tech-item"><i class="ti ti-key" style="color:var(--accent)" title="JWT"></i><span>JWT</span></div>
+            <div class="tech-item"><i class="devicon-hibernate-plain colored" title="Hibernate/JPA"></i><span>Hibernate/JPA</span></div>
+            <div class="tech-item"><i class="devicon-maven-plain colored" title="Maven"></i><span>Maven</span></div>
+          </div>
+        </div>
+
+        <div class="skill-card reveal">
+          <h3>Datos</h3>
+          <div class="tech-grid">
+            <div class="tech-item"><i class="devicon-postgresql-plain colored" title="PostgreSQL"></i><span>PostgreSQL</span></div>
+            <div class="tech-item"><i class="devicon-mysql-plain colored" title="MySQL"></i><span>MySQL</span></div>
+            <div class="tech-item"><i class="devicon-microsoftsqlserver-plain colored" title="SQL Server"></i><span>SQL Server</span></div>
+            <div class="tech-item"><i class="devicon-mongodb-plain colored" title="MongoDB"></i><span>MongoDB</span></div>
+            <div class="tech-item"><i class="devicon-redis-plain colored" title="Redis"></i><span>Redis</span></div>
+            <div class="tech-item"><i class="ti ti-database-cog" style="color:var(--accent)" title="Liquibase"></i><span>Liquibase</span></div>
+            <div class="tech-item"><i class="ti ti-database-import" style="color:var(--accent)" title="Flyway"></i><span>Flyway</span></div>
+          </div>
+        </div>
+
+        <div class="skill-card reveal">
+          <h3>Cloud &amp; Herramientas</h3>
+          <div class="tech-grid">
+            <div class="tech-item"><i class="devicon-docker-plain colored" title="Docker"></i><span>Docker</span></div>
+            <div class="tech-item"><i class="devicon-azure-plain colored" title="Azure"></i><span>Azure</span></div>
+            <div class="tech-item"><i class="devicon-githubactions-plain colored" title="GitHub Actions"></i><span>GitHub Actions</span></div>
+            <div class="tech-item"><i class="devicon-rabbitmq-original colored" title="RabbitMQ"></i><span>RabbitMQ</span></div>
+            <div class="tech-item"><i class="ti ti-shield-check" style="color:var(--accent)" title="Keycloak"></i><span>Keycloak</span></div>
+            <div class="tech-item"><i class="devicon-swagger-plain colored" title="Swagger/OpenAPI"></i><span>Swagger</span></div>
+            <div class="tech-item"><i class="devicon-git-plain colored" title="Git"></i><span>Git</span></div>
+            <div class="tech-item"><i class="devicon-postman-plain colored" title="Postman"></i><span>Postman</span></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SOBRE MI -->
+  <section id="sobre-mi">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="num">05</span>
+        <h2>Sobre mí</h2>
+        <span class="rule"></span>
+      </div>
+      <div class="about-grid reveal">
+        <div>
+          <p class="about-lead">Estudiante de últimos semestres de Ingeniería de Sistemas en la Universidad del Magdalena, con enfoque en desarrollo backend y arquitectura.</p>
+          <p>Trabajé en backend para el sector financiero en Cibernación (Java 21, Spring Boot 3) y desarrollo proyectos propios de punta a punta. Me interesa integrarme a un buen equipo, aportar desde el backend y crecer hacia full-stack.</p>
+          <div class="growth">
+            <span class="label">Enfoque actual</span>
+            Creciendo hacia full-stack con React + TypeScript, fortaleciendo mi testing propio, procesos de trabajo en equipo con git e inglés técnico.
+          </div>
+        </div>
+        <div>
+          <ul class="strengths">
+            <li><b>Descomponer sistemas grandes</b> en piezas manejables y comprensibles.</li>
+            <li><b>Criterio de dominio:</b> modelar reglas de negocio reales, no solo CRUD.</li>
+            <li><b>Rigor con los contratos de API</b> y la consistencia de los datos.</li>
+            <li><b>Uso de IA como herramienta</b>, sin delegarle las decisiones.</li>
+            <li><b>Resiliencia operativa</b> para diagnosticar y resolver incidencias.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section class="contact" id="contacto">
+    <div class="wrap">
+      <span class="label reveal">Hablemos</span>
+      <h2 class="reveal">¿Tu equipo busca un backend junior con criterio?</h2>
+      <p class="reveal">Estoy disponible para prácticas y roles junior. Con gusto conversamos sobre el rol o sobre cualquiera de estos proyectos en detalle.</p>
+      <div class="cta-row reveal">
+        <a class="btn primary" id="email-btn" href="#" rel="nofollow">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16v12H4z"/><path d="M4 7l8 6 8-6"/></svg>
+          <span id="email-text">Escríbeme por correo</span>
         </a>
-        <a href="https://www.linkedin.com/in/jabes-borre-yance/" target="_blank" aria-label="LinkedIn">
-          <i class="ti ti-brand-linkedin"></i>
-        </a>
-        <a target="_blank" href="mailto:jabesbyanc@gmail.com" aria-label="Email">
-          <i class="ti ti-mail"></i>
-        </a>
+        <a class="btn" href="https://www.linkedin.com/in/jabes-borre-yance/" target="_blank" rel="noopener"><i class="ti ti-brand-linkedin"></i> LinkedIn</a>
+        <a class="btn" href="https://github.com/Jbyanx" target="_blank" rel="noopener"><i class="ti ti-brand-github"></i> GitHub</a>
       </div>
     </div>
   </section>
 
-  <section id="skills" class="section-container">
-    <h2 class="section-title reveal">Stack Tecnológico</h2>
-
-    <div class="skills-grid">
-      <div class="skill-card reveal">
-        <h3>Core & Frameworks</h3>
-        <div class="tech-grid">
-          <div class="tech-item">
-            <i class="devicon-java-plain colored" title="Java"></i>
-            <span>Java 21</span>
-          </div>
-          <div class="tech-item">
-            <i class="devicon-spring-original colored" title="Spring Boot"></i>
-            <span>Spring Boot 3</span>
-          </div>
-          <div class="tech-item">
-            <i class="ti ti-shield-lock" style="color: var(--accent);" title="Spring Security"></i>
-            <span>Spring Security</span>
-          </div>
-          <div class="tech-item">
-            <i class="ti ti-key" style="color: var(--accent);" title="JWT"></i>
-            <span>JWT</span>
-          </div>
-          <div class="tech-item">
-            <i class="devicon-hibernate-plain colored" title="Hibernate/JPA"></i>
-            <span>Hibernate/JPA</span>
-          </div>
-          <div class="tech-item">
-            <i class="devicon-maven-plain colored" title="Maven"></i>
-            <span>Maven</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="skill-card reveal">
-        <h3>Arquitectura & Cloud</h3>
-        <div class="tech-grid">
-          <div class="tech-item">
-            <i class="devicon-docker-plain colored" title="Docker"></i>
-            <span>Docker</span>
-          </div>
-          <div class="tech-item">
-            <i class="devicon-azure-plain colored" title="Azure"></i>
-            <span>Azure</span>
-          </div>
-          <div class="tech-item">
-            <i class="devicon-rabbitmq-original colored" title="RabbitMQ"></i>
-            <span>RabbitMQ</span>
-          </div>
-          <div class="tech-item">
-            <i class="devicon-linux-plain" title="Linux"></i>
-            <span>Linux</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="skill-card reveal">
-        <h3>Datos & Herramientas</h3>
-        <div class="tech-grid">
-          <div class="tech-item">
-            <i class="devicon-postgresql-plain colored" title="PostgreSQL"></i>
-            <span>PostgreSQL</span>
-          </div>
-          <div class="tech-item">
-            <i class="devicon-mysql-plain colored" title="MySQL"></i>
-            <span>MySQL</span>
-          </div>
-          <div class="tech-item">
-            <i class="devicon-microsoftsqlserver-plain colored" title="SQL Server"></i>
-            <span>SQL Server</span>
-          </div>
-          <div class="tech-item">
-            <i class="ti ti-database-cog" style="color: #ff8c00;" title="Liquibase"></i>
-            <span>Liquibase</span>
-          </div>
-          <div class="tech-item">
-            <i class="ti ti-database-import" style="color: #cc0000;" title="Flyway"></i>
-            <span>Flyway</span>
-          </div>
-          <div class="tech-item">
-            <i class="devicon-git-plain colored" title="Git"></i>
-            <span>Git</span>
-          </div>
-          <div class="tech-item">
-            <i class="devicon-postman-plain colored" title="Postman"></i>
-            <span>Postman</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="proyectos" class="section-container bg-alt">
-    <h2 class="section-title reveal">Proyectos Destacados</h2>
-
-    <div class="projects-grid">
-
-      <article class="project-card featured reveal">
-        <div class="card-header">
-          <h3>Belasierra</h3>
-          <span class="badge-private"><i class="ti ti-lock"></i> Repo Privado</span>
-        </div>
-        <p class="project-desc">
-          Plataforma de alta seguridad para la <strong>gestión de reservas y programa de fidelización</strong> hotelera.
-          Implementación de reglas complejas de negocio para asignación de recompensas, persistencia de cupones
-          y seguridad robusta con <strong>Spring Security y JWT</strong>.
-        </p>
-        <div class="tags">
-          <span>Java 21</span>
-          <span>Spring Boot 3</span>
-          <span>Spring Security</span>
-          <span>JWT Stateless</span>
-          <span>PostgreSQL</span>
-          <span>Docker</span>
-        </div>
-        <div class="card-links">
-          <button class="btn-demo" data-video="./belasierra-demo.mp4" data-title="Demo: Belasierra"
-            data-desc="Sistema de Reservas, Control de Tiers y Panel de Fidelización.">
-            <i class="ti ti-player-play"></i> Ver Demo Video
-          </button>
-        </div>
-      </article>
-
-      <article class="project-card reveal">
-        <div class="card-header">
-          <h3>ECO-RIDE LATAM</h3>
-          <span class="badge">Microservicios</span>
-        </div>
-        <p class="project-desc">
-          Plataforma distribuida de transporte corporativo. Implementación de <strong>Patrón Saga</strong> con RabbitMQ
-          para transacciones distribuidas, seguridad OIDC con <strong>Keycloak</strong> y resiliencia ante fallos.
-        </p>
-        <div class="tags">
-          <span>Java 21</span>
-          <span>Spring Cloud</span>
-          <span>RabbitMQ</span>
-          <span>Docker</span>
-          <span>Saga Pattern</span>
-        </div>
-        <div class="card-links">
-          <a href="https://github.com/Jbyanx/ECORIDE---LATAM" target="_blank">Ver Código <i class="ti ti-code"></i></a>
-        </div>
-      </article>
-
-      <article class="project-card reveal">
-        <div class="card-header">
-          <h3>Conecta Ciudad</h3>
-          <span class="badge">Cloud & DevOps</span>
-        </div>
-        <p class="project-desc">
-          Sistema de auditoría para participación ciudadana. Integridad de datos con <strong>Hashing SHA-256</strong> y
-          despliegue automatizado (CI/CD) en <strong>Azure App Service</strong>.
-        </p>
-        <div class="tags">
-          <span>Azure</span>
-          <span>GitHub Actions</span>
-          <span>Liquibase</span>
-          <span>PostgreSQL</span>
-          <span>Security</span>
-        </div>
-        <div class="card-links">
-          <a href="https://github.com/Jbyanx/participacion-api" target="_blank">Ver Código <i
-              class="ti ti-code"></i></a>
-        </div>
-      </article>
-
-      <article class="project-card reveal">
-        <div class="card-header">
-          <h3>ReWear</h3>
-          <span class="badge">Clean Arch</span>
-        </div>
-        <p class="project-desc">
-          Plataforma de economía circular. Backend RESTful robusto con autenticación <strong>JWT Stateless</strong>,
-          documentación OpenAPI y mapeo eficiente con MapStruct.
-        </p>
-        <div class="tags">
-          <span>Spring Security</span>
-          <span>JWT</span>
-          <span>OpenAPI</span>
-          <span>SQL Server</span>
-        </div>
-        <div class="card-links">
-          <a href="https://github.com/Jbyanx/rewear" target="_blank">Ver Código <i class="ti ti-code"></i></a>
-          <button class="btn-demo" data-video="./rewear-demo.mp4" data-title="Demo: ReWear"
-            data-desc="Plataforma de economía circular con arquitectura limpia y autenticación segura.">
-            <i class="ti ti-player-play"></i> Ver Demo Video
-          </button>
-        </div>
-      </article>
-
-    </div>
-  </section>
-
-  <section id="contacto" class="section-container" style="text-align: center; padding-bottom: 6rem;">
-    <h2 class="section-title">Hablemos</h2>
-    <p style="color: var(--text-muted); max-width: 600px; margin: 0 auto 2rem;">
-      ¿Te interesa mi perfil o quieres hablar sobre arquitectura de software?
-      Estoy disponible para nuevas oportunidades.
-    </p>
-
-    <a target="_blank" href="mailto:jabesbyanc@gmail.com" class="btn-contact"
-      style="font-size: 1.2rem; padding: 0.8rem 2rem;">
-      Enviarme un correo <i class="ti ti-send"></i>
-    </a>
-
-    <div class="social-links" style="justify-content: center; margin-top: 3rem;">
-      <a href="https://github.com/Jbyanx" target="_blank"><i class="ti ti-brand-github"></i></a>
-      <a href="https://www.linkedin.com/in/jabes-borre-yance/" target="_blank"><i class="ti ti-brand-linkedin"></i></a>
-    </div>
-  </section>
-
-  <footer>
-    <p>&copy; <span id="current-year"></span> Jabes Borré Yance. Construyendo software de calidad.</p>
-    <div class="footer-links">
-      <a href="https://www.linkedin.com/in/jabes-borre-yance/">LinkedIn</a>
-      <a href="https://github.com/Jbyanx">GitHub</a>
-    </div>
-  </footer>
-
-  <!-- Modal de Video Demo -->
-  <div id="video-modal" class="modal">
-    <div class="modal-backdrop"></div>
-    <div class="modal-content">
-      <button class="modal-close" aria-label="Cerrar modal">&times;</button>
-      <div class="video-container">
-        <video id="demo-video" controls playsinline>
-          <source src="" type="video/mp4">
-          Tu navegador no soporta la reproducción de video.
-        </video>
-      </div>
-      <div class="modal-info">
-        <h3 id="modal-title">Demo</h3>
-        <p id="modal-desc"></p>
-      </div>
-    </div>
+  <div class="wrap">
+    <footer class="foot">
+      <span>© <span id="year"></span> Jabes Borré Yance</span>
+      <span>Santa Marta, Colombia</span>
+    </footer>
   </div>
 
-  <script src="./script.js"></script>
-</body>
+</main>
 
+<!-- Modal de video -->
+<div class="modal" id="video-modal" role="dialog" aria-modal="true" aria-label="Demo en video">
+  <div class="modal-backdrop"></div>
+  <div class="modal-content">
+    <button class="modal-close" aria-label="Cerrar">&times;</button>
+    <div class="video-container">
+      <video id="demo-video" controls playsinline preload="none">
+        <source src="" type="video/mp4" />
+        Tu navegador no soporta la reproducción de video.
+      </video>
+    </div>
+    <div class="modal-info">
+      <h3 id="modal-title">Demo</h3>
+      <p id="modal-desc"></p>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
 </html>
