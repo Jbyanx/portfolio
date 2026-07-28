@@ -1,8 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-  <rect width="512" height="512" rx="120" fill="#0b0f19"/>
-  <text x="256" y="370" 
-        font-family="Georgia, serif" 
-        font-size="340" font-weight="700"
-        fill="#00ffaa"
-        text-anchor="middle">J</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <rect width="32" height="32" rx="7" fill="#0F4235"/>
+  <path d="M18 7 V19 A6 6 0 0 1 8 21"
+        stroke="#FBFBF9" stroke-width="5" stroke-linecap="round" fill="none"/>
 </svg>
